@@ -1,1 +1,1 @@
-# newsScraping
+# scraper
