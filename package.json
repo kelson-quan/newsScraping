@@ -1,33 +1,33 @@
 {
-  "name": "scraper",
+  "name": "newsscrape",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/changviv/scraper.git"
+    "url": "git+https://github.com/philipstubbs13/NewsScrape.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Phil Stubbs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/changviv/scraper/issues"
+    "url": "https://github.com/philipstubbs13/NewsScrape/issues"
   },
-  "homepage": "https://github.com/changviv/scraper#readme",
+  "homepage": "https://github.com/philipstubbs13/NewsScrape#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
-    "dotenv": "^6.2.0",
-    "express": "^4.16.4",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.4.10",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
+    "mocha": "^5.0.5",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "nightmare": "^3.0.1",
+    "npm": "^5.8.0",
+    "request": "^2.85.0"
   }
 }
